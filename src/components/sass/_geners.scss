@@ -22,14 +22,15 @@
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
     &-btn {
       padding: 5px 15px 5px 15px;
       cursor: pointer;
       background-color: $color-buttons;
       border: none;
       color: $color-font;
-      font-size: 1.1rem;
+      font-size: 1rem;
       border-radius: 2px;
       transition: .3s;
       &:focus, &:hover {
