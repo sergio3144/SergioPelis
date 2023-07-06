@@ -17,6 +17,7 @@
   }
   &__title {
     color: $color-font;
+    font-size: 2rem;
   }
   &__bottoms {
     display: flex;
@@ -24,6 +25,10 @@
     gap: 8px;
     margin: 10px;
     flex-wrap: wrap;
+    @media(max-width:800px) {
+      max-width: 350px;
+      margin: 0 auto;
+    }
     &-btn {
       padding: 5px 15px 5px 15px;
       cursor: pointer;

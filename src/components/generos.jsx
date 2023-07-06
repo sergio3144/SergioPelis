@@ -25,12 +25,12 @@ function Geners() {
           <h1 className='aside__logo-name'>Sergio Pelis</h1>
           <img className='aside__logo-img' src={iconMovie} alt="icon-movie" />
         </div>
-        <h1 className='aside__title'>Géneros</h1>
+        <h1 className='aside__title'>Géneros populares</h1>
         <div className='aside__bottoms'>
           {/* <button className='aside__bottoms-btn'>Acción</button> */}
-          {genres.map((item) => 
+          {/* {genres.map((item) => 
             <button key={item.id} className='aside__bottoms-btn'>{item.name}</button>
-          )}
+          )} */}
         </div>
       </aside>
     </div>
