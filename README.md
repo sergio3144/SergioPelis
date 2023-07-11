@@ -1,2 +1,0 @@
-# SergioPelis
-Página de peliculas
