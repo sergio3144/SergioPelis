@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { BiSolidSkipNextCircle } from 'react-icons/bi'
 import { BiSolidSkipPreviousCircle } from 'react-icons/bi'
 import { SpinnerDotted } from 'spinners-react'
-import { Modal } from './Modal';
+import { Modal } from './Modal'
 
 function Main() {
   const [peliculas, setPeliculas] = useState([]);
