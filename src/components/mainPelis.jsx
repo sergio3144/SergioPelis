@@ -60,6 +60,7 @@ function Main() {
   return (
     <>
     {filter.map((poster_filter) => 
+
       modal && <Modal
         event_click={closeModal}
         title_poster={poster_filter.title}
@@ -68,6 +69,7 @@ function Main() {
         sipnosis_poster={poster_filter.overview}
         lenguaje_poster={poster_filter.original_language}
       />
+      
     )}
     <div className='container'>
       <h1 className='container__title'>Peliculas</h1>
@@ -81,6 +83,9 @@ function Main() {
       </div>
       <div className="container__pagination">
         {page === 1 ? <BiSolidSkipPreviousCircle onClick={prevFuncion} pointerEvents='none' color='white' opacity={.5} cursor='pointer' size={60}/> : <BiSolidSkipPreviousCircle onClick={prevFuncion} color='white' cursor='pointer' size={60}/>}
+
+        <h1 className="container__pagination-page">Página <span className="page">{page}</span></h1>
+
         <BiSolidSkipNextCircle onClick={nextFuncion} color='white' cursor='pointer' size={60}/>
       </div>
     </div>
